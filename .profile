@@ -5,8 +5,3 @@ source ~/.bash_profile
     parse_git_branch() {
      git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
     }
-
-eval "$(rbenv init -)"
-
-export NVM_DIR="/Users/brlerner/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
