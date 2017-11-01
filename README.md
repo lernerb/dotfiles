@@ -16,7 +16,7 @@
 ## Cherrypicking a range of commits
 
 From [A to B]
-> git cherry-pick A^..B   
+> `git cherry-pick A^..B` 
 
 From (A to B]
-> git cherry-pick A..B    
+> `git cherry-pick A..B` 
