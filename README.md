@@ -12,3 +12,11 @@
 
 ### Reset your local branch
 > `$ git reset --hard HEAD^`
+
+## Cherrypicking a range of commits
+
+From [A to B]
+> git cherry-pick A^..B   
+
+From (A to B]
+> git cherry-pick A..B    
