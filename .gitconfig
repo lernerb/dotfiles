@@ -48,3 +48,5 @@
 [user]
 	name = Brandon Lerner
 	email = lernerbrandon@gmail.com
+[diff]
+	colorMoved = dimmed_zebra
