@@ -38,7 +38,7 @@
     unig = update-index --no-assume-unchanged
 
 [core]
-  editor = emacs
+  editor = emacs -nw
 
 [branch "master"]
     remote = origin
